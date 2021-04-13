@@ -1,34 +1,26 @@
 import React, { Component } from 'react';
 import {
-    View,
-    Text,
-    StyleSheet
+  View,
+  Text,
+  StyleSheet
 } from 'react-native';
-
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 
 export default class Home extends Component {
-    
-    render() {
-        return (
-            <View>
-          <MapView
+  render() {
+    return (
+      <View>
+        <MapView
           provider={PROVIDER_GOOGLE}
           style={styles.container}
         />
-                </View>
-            
-        )
-    }
+      </View>
+    )
+  }
 }
-
-
-
-
   
 const styles = StyleSheet.create({
-    container :{
-        flex :1,
-    }
-    
-})
+  container :{
+    flex :1,
+  }
+});

@@ -1,13 +1,12 @@
 import { 
-    createAppContainer, 
-    createStackNavigator,
-    createMaterialTopTabNavigator 
-  } from 'react-navigation';
+  createAppContainer, 
+  createStackNavigator,
+} from 'react-navigation';
 
 import Login from '../src/pages/Login';
 import Signup from '../src/pages/Signup';
 
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import AddData from './pages/AddData';
 // import TambahData from "./pages/TambahData";
 
